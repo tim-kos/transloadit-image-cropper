@@ -1,5 +1,6 @@
 <?php
 require_once('helpers.php');
+date_default_timezone_set('UTC');
 
 $authKey    = 'YOUR-TRANSLOADIT-AUTH-KEY';
 $authSecret = 'YOUR-TRANSLOADIT-AUTH-SECRET';

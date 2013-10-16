@@ -10,14 +10,16 @@ if (isset($_POST['transloadit'])) {
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Transloadit meets Tito</title>
+  <title>Transloadit Image Cropping Tool</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/img_area_select/imgareaselect-default.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Transloadit meets Tito</h1>
+    <h1>Transloadit Image Cropping Tool</h1>
+    <p>Upload an image, then use your mouse to select an area that you want to crop.</p>
+    <p>You can find the code for this <a href="https://github.com/tim-kos/transloadit-image-cropper">here</a>.</p>
     <hr />
 
     <?php if (!empty($results)) : ?>
