@@ -103,6 +103,9 @@
   TransloaditCropper.prototype._bindTransloaditStep2 = function(cb) {
     var self = this;
 
+    // remove our file field or else we'll expect another file upload
+    this.$form.find('input[type=file]').parent().remove();
+
     this._fetchParamsAndSignatureStep2(function(params, signature) {
       self._unbindtransloadit();
       self.$form.transloadit({
