@@ -42,7 +42,7 @@ if (isset($_POST['transloadit'])) {
         <form role="form" action="index.php" enctype="multipart/form-data" method="POST">
           <div class="form-group">
             <label for="name">Choose some files:</label>
-            <input type="file" name="file" id="file" class="form-control" />
+            <input type="file" name="file" id="file" accept="image/*" class="form-control" />
           </div>
 
           <div class="form-group">
