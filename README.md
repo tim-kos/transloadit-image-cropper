@@ -1,7 +1,7 @@
 transloadit-imagecropper
 =========================
 
-A live image cropping tool based on [Transloadit](https://transloadit.com)
+A live image cropping tool based on [Transloadit](https://transloadit.com).
 
 [Demo](https://transloadit.com/example_apps/image-cropper-index.php)
 
