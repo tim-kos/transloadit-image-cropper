@@ -31,7 +31,7 @@ function displayThumbnails($thumbs) {
   foreach ($thumbs as $url) {
     $out .= <<<HTML
       <div class="col-sm-6 col-md-2">
-        <a href="https://transloadit.com" class="thumbnail">
+        <a href="{$url}" class="thumbnail">
           <img src="{$url}">
         </a>
       </div>
